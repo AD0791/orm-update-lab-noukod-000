@@ -68,6 +68,7 @@ class Student
     Student.new(id,name,grade)   # custom constructor
   end
   
+  # database => ruby
   
   
   
