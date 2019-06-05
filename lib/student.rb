@@ -62,10 +62,10 @@ class Student
   # database => ruby
   # take row convert to object
   def self.new_from_db(row)
-    db_student = Student.new   # custom constructor
     id = row[0]
     name =  row[1]
     grade = row[2]
+    Student.new(id,name,grade)   # custom constructor
   end
   
   
