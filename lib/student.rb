@@ -63,10 +63,9 @@ class Student
   # take row convert to object
   def self.new_from_db(row)
     db_student = Student.new   # custom constructor
-    db_student.id = row[0]
-    db_student.name =  row[1]
-    db_student.grade = row[2]
-    db_student
+    id = row[0]
+    name =  row[1]
+    grade = row[2]
   end
   
   
